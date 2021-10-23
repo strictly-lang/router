@@ -1,0 +1,30 @@
+{
+  "name": "@strictly-lang/router",
+  "version": "0.0.0-semantically-released",
+  "description": "router for the programming language strictly",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "test:watch": "karma start karma.conf.js --no-single-run --auto-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/strictly-lang/router.git"
+  },
+  "author": "Carlo Jeske",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strictly-lang/router/issues"
+  },
+  "homepage": "https://github.com/strictly-lang/router#readme",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "karma": "^6.3.5",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^2.1.1",
+    "karma-jasmine": "^4.0.1",
+    "prettier": "^2.4.1"
+  }
+}
