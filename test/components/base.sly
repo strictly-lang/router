@@ -1,7 +1,8 @@
-view
-	#route \{query} <- "/some/path"
-		#match query.name
-			#case Just(name)
-				"Hello, ${name}"
-			#case Nothing
-				"Hello stranger"
+main = \ ->
+	let {query} <- route("/some/path");
+
+	match query.name
+		case Just[name]
+			"Hello, ${name}"
+		case Nothing
+			"Hello stranger"
